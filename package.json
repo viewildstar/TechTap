@@ -4,7 +4,7 @@
   "description": "MIT Meal Swipe Marketplace Backend API",
   "main": "dist/index.js",
   "scripts": {
-    "dev": "tsx watch src/index.ts",
+    "dev": "tsx watch backend/src/index.ts",
     "build": "tsc",
     "start": "node dist/index.js",
     "db:migrate": "node-pg-migrate up",
@@ -40,8 +40,7 @@
     "@types/uuid": "^9.0.7",
     "tsx": "^4.7.0",
     "typescript": "^5.3.3",
-    "node-pg-migrate": "^6.2.2",
-    "@types/node-pg-migrate": "^6.0.3"
+    "node-pg-migrate": "^6.2.2"
   }
 }
 
